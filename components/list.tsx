@@ -45,7 +45,7 @@ const List = () => {
                 A few things that interest me that<br/> 
                 may influence what I post on here are:
             </p>
-            <ul className={`list-inside flex ${reverseOrder ? 'flex-col-reverse' : 'flex-col'} list-disc ml-32`}>
+            <ul className={`list-inside flex ${reverseOrder ? 'flex-col-reverse' : 'flex-col'} list-disc ml-32 text-[#713f12]`}>
                 {itemsListed}
             </ul>
         </div>
@@ -60,7 +60,9 @@ const List = () => {
                 </label>
 
             </button>
-            (Can be pushed by pressing the Spacebar)
+            <div className="text-[#713f12]">
+              (Can be pushed by pressing the Spacebar)
+            </div>
         </div>
         
     </>

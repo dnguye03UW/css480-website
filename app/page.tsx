@@ -6,7 +6,7 @@ import List from "@/components/list";
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl font-bold text-center p-8">
+      <h1>
         Welcome!
       </h1>
 

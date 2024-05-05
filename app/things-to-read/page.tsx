@@ -120,11 +120,11 @@ export default function ThingsToRead() {
 
     return (
       <>
-        <h1 className="text-3xl font-bold text-center p-8">
+        <h1>
             Links to my interests
         </h1>
 
-        <p className="max-container padding-container flex flex-col text-center">
+        <p>
             (Press the associated number to access the link; link 10 is 0)
         </p>
 
