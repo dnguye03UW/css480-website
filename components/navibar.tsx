@@ -5,20 +5,20 @@ import Link from "next/link"
 
 const NaviBar = () => {
   useEffect(() => {
-    const keyHandler = (event:any) => {
-      if(event.ctrlKey && event.key == " ") {
+    const keyHandler = (event: any) => {
+      if (event.ctrlKey && event.key == " ") {
         event.preventDefault();
         if (window.location.pathname == '/things-to-read') {
-          window.open("/","_self")
+          window.open("/", "_self")
         } else {
-          window.open("/things-to-read","_self")
+          window.open("/things-to-read", "_self")
         }
       }
     };
 
     window.addEventListener('keydown', keyHandler);
 
-    return()=> {
+    return () => {
       window.removeEventListener('keydown', keyHandler);
     }
   });
