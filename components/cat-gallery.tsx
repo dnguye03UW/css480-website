@@ -14,6 +14,7 @@ const CatGallery = () => {
                     src={catdance}
                     width={200}
                     height={150}
+                    unoptimized = {true}
                     sizes="(max-width: 200px), (max-height: 150px)"
                     alt="Animated GIF of a dancing cat with its arms in the air."
                 />
@@ -45,6 +46,7 @@ const CatGallery = () => {
                     src={catdance}
                     width={200}
                     height={150}
+                    unoptimized = {true}
                     sizes="(max-width: 200px), (max-height: 150px)"
                     alt="Animated GIF of a dancing cat with its arms in the air."
                 />

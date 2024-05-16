@@ -9,8 +9,12 @@ const NaviBar = () => {
       if (event.ctrlKey && event.key == " ") {
         event.preventDefault();
         if (window.location.pathname == '/things-to-read') {
+          window.open("/about-cats", "_self")
+        } 
+        else if (window.location.pathname == '/about-cats') {
           window.open("/", "_self")
-        } else {
+        } 
+        else {
           window.open("/things-to-read", "_self")
         }
       }
@@ -31,8 +35,8 @@ const NaviBar = () => {
             {link.label}
           </Link>
         ))}
-        <p className="regular-20 font-medium text-[#362312] flexCenter p-6">
-          (Use Ctrl + Space to switch between tabs)
+        <p className="regular-20 text-[#78350f] flexCenter p-6">
+          (Use Ctrl + Space to switch between sections)
         </p>
       </ul>
     </nav>

@@ -16,14 +16,14 @@ export default function Home() {
       <div className='max-container grid lg:grid-cols-3 py-20 gap-10 bg-yellow-50'>
         
         <div className='max-container grid lg:grid-cols-2 gap-10'>
-          <p className='flex flex-col text-right'>
-            <div className='font-bold text-xl p-2 text-yellow-900'>
+          <div className='flex flex-col text-right'>
+            <p className='font-bold text-2xl p-2 text-yellow-900 text-right'>
               Did you know?
-            </div>
-            This is the original image <br />
-            of the crying cat face you <br />
-            may see edited onto other photos!
-          </p>
+            </p>
+            This is the original image of <br />
+            the crying cat face you may <br />
+            see edited onto other photos!
+          </div>
 
           <Image
             src={catcry}
@@ -34,15 +34,17 @@ export default function Home() {
         </div>
         
         <div className='max-container grid lg:grid-cols-2 gap-10'>
-          <p className='flex flex-col text-right'>
-            <div className='font-bold text-xl p-2 text-yellow-900'>
+          <div className='flex flex-col text-right'>
+            <p className='font-bold text-2xl p-2 text-yellow-900 text-right'>
               Did you know?
-            </div>
-            The song commonly associated with Nyan Cat is a song named<br />
+            </p>
+            The song commonly associated with <br />
+            Nyan Cat is a song named <br />
             "Nyanyanyanyanyanyanya!" by daniwellP featuring Hatsune Miku!<br />
-            The version most known uses UTAU Momone Momo's voicebank<br /> 
-            instead of Miku.
-          </p>
+            The version most known uses UTAU <br />
+            Momone Momo's voicebank instead <br />
+            of Hatsune Miku.
+          </div>
 
           <Image
             src={nyan}
@@ -53,13 +55,13 @@ export default function Home() {
         </div>
         
         <div className='max-container grid lg:grid-cols-2 gap-10'>
-          <p className='flex flex-col text-right'>
-            <div className='font-bold text-xl p-2 text-yellow-900'>
+          <div className='flex flex-col text-right'>
+            <p className='font-bold text-2xl p-2 text-yellow-900 text-right'>
               Did you know?
-            </div>
+            </p>
             you stink <br />
             (ew)
-          </p>
+          </div>
 
           <Image
             src={sniff}

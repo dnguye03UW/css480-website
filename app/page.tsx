@@ -13,6 +13,7 @@ export default function Home() {
       <div className='flex justify-center items-center pb-8'>
         <Image
           src={catdance}
+          unoptimized = {true}
           alt="Animated GIF of a breakdancing cat."
         />
       </div>
